@@ -34,22 +34,22 @@ C:\Users\<username>\AppData\Local\Programs\Python\Python311\Scripts
 5. Click OK.
 6. In the “System variables” pane (upper pane), select “the “Path” variable and click edit.
 7. Click New to add two new directories to the system Path environment variable:
-C:\Users\<username>\AppData\Local\Programs\Python\Python311\Scripts\
-C:\Users\<username>\AppData\Local\Programs\Python\Python311\
+   - C:\Users\<username>\AppData\Local\Programs\Python\Python311\Scripts\
+   - C:\Users\<username>\AppData\Local\Programs\Python\Python311\
 Where <username> is the users login name on the system.
-8. Confirm there are no other Python-related directories listed for Path and delete them if so.
-9. Click OK to save changes.
-10. Click OK again to exit the environment variables dialog.
+9. Confirm there are no other Python-related directories listed for Path and delete them if so.
+10. Click OK to save changes.
+11. Click OK again to exit the environment variables dialog.
 
 ### Check the Environment
 1. Open a command window as follows:
-- Click on the start button and type “cmd”.
-- Right click on the Command Prompt App and select “Run as administrator”. 
+  - Click on the start button and type “cmd”.
+  - Right click on the Command Prompt App and select “Run as administrator”. 
 You may need to specify a privileged account and password to successfully open a command prompt with admin rights.
 2. Type “where python” at the command prompt.  Confirm that the specific version of Python is located at:
-C:\Users\<username>\AppData\Local\Programs\Python\Python311
+  - C:\Users\<username>\AppData\Local\Programs\Python\Python311
 4. Type “where pip” at the command prompt. Confirm that the specific version of Python is located at:
-C:\Users\<username>\AppData\Local\Programs\Python\Python311\Scripts\
+  - C:\Users\<username>\AppData\Local\Programs\Python\Python311\Scripts\
 5. Keep this privileged command prompt open for Python library installation steps below.
 
 ### Install supporting Python Extensions:
@@ -71,8 +71,8 @@ be maintained using any text editor.  However, Microsoft Visual Studio or PyChar
 also recommended development environments.
 
 ### These development environments may be found at:
-https://visualstudio.microsoft.com/downloads/
-https://www.jetbrains.com/pycharm/download/#section=windows
+  - https://visualstudio.microsoft.com/downloads/
+  - https://www.jetbrains.com/pycharm/download/#section=windows
 
 Refer to the applicable websites for installation and usage instructions for these tools.
 
@@ -81,8 +81,8 @@ To create a single .exe file that can be distributed and run without the need to
 a specific Python version or specific Python libraries, pyinstaller is used. Follow the 
 steps below to generate an exe file from the sigcalc.py script:
 1. Open a command window as follows:
-- Click on the start button and type “cmd”.
-- Right click on the Command Prompt App and select “Run as administrator”. You may need to specify a privileged account and password to successfully open a command prompt with admin rights.
+  - Click on the start button and type “cmd”.
+  - Right click on the Command Prompt App and select “Run as administrator”. You may need to specify a privileged account and password to successfully open a command prompt with admin rights.
 2. Change the directory to the location of the sigcalc.py file using the “cd” command.
 3. Type: “pyinstaller -F sigcalc.py” and wait for the processing to complete.
 4. The new executable will be placed in the “dist” subdirectory below the current directory. E.g., “./dist/sigcalc.exe”.
