@@ -2,38 +2,22 @@
 # Signum Price Calculator
 
 ## 1. PURPOSE OF THE SIGCALC PROGRAM:
-The sigcalc program will graphically display the current prices for Signa, 
-Bitcoin (BTC), Litecoin (LTC), and Etherium (ETH) in terms of US Dollars ($).  
-It will also display the price of Signa in terms of BTC, LTC, and ETH.  The current 
-price data is queried from the Coingecko database.  
+The sigcalc program will graphically display the current prices for Signa, Bitcoin (BTC), Litecoin (LTC), and Etherium (ETH) in terms of US Dollars ($).  It will also display the price of Signa in terms of BTC, LTC, and ETH.  The current price data is queried from the Coingecko database.  
 
 Note that, Coingecko limits the query frequency and may not respond if called too
 rapidly.  In general this does not present a problem.  
 
 ## 2. USING THE SIGCALC PROGRAM:
-Start the sigcalc program by double clicking on sigcalc.exe.
-Alternatively, if Python 3 and the requisite Python packages, tk, requests, and 
-coingecko, are installed, the Python script can be run by the command: 
-python sigcalc.py.
+Start the sigcalc program by double clicking on sigcalc.exe.  Alternatively, if Python 3 and the requisite Python packages, tk, requests, and coingecko, are installed, the Python script can be run by the command: python sigcalc.py.
 
-The graphical user interface (GUI) will be displayed along with a black diagnostic 
-window. Under normal circumstances, this black window can be ignored. This black 
-window may provide information if the Python program encounters a problem.
+The graphical user interface (GUI) will be displayed along with a black diagnostic window. Under normal circumstances, this black window can be ignored.  This black window may provide information if the Python program encounters a problem.
 
-To display or refresh the price data, click the "Fetch Prices" button.  To exit the 
-program click the X in the upper right of the display or click the "Exit" button on 
-the lower right.
+To display or refresh the price data, click the "Fetch Prices" button.  To exit the program click the X in the upper right of the display or click the "Exit" button on the lower right.
 
 ## 3. MAINTAINING THE SIGCALC PROGRAM:
-The sigcalc program was coded for Python 3.11.1 on Windows 10 (64-bit) and the 
-developer should install this version of Python (or later) to modify the program 
-or to make enhancements.  Python 3.11.1 can be downloaded at: 
-https://www.python.org/downloads/
+The sigcalc program was coded for Python 3.11.1 on Windows 10 (64-bit) and the developer should install this version of Python (or later) to modify the program or to make enhancements.  Python 3.11.1 can be downloaded at: https://www.python.org/downloads/
 
-Warning: Multiple version of Python may be installed and co-exist on Windows systems. 
-To ensure the correct version of Python (3.11.1) is invoked, confirm that Path 
-environment variable contains the correct path to python.exe (the Python interpreter) 
-and to pip.exe (for Python package installation).
+Warning: Multiple version of Python may be installed and co-exist on Windows systems. To ensure the correct version of Python (3.11.1) is invoked, confirm that Path environment variable contains the correct path to python.exe (the Python interpreter) and to pip.exe (for Python package installation).
 
 ### Python 3.11.1 Windows installation is normally placed in:
 C:\Users\<username>\AppData\Local\Programs\Python\Python311\
