@@ -44,16 +44,16 @@ C:\Users\<username>\AppData\Local\Programs\Python\Python311\Scripts
 10.) Click OK again to exit the environment variables dialog.
 
 ### Check the Environment
-1.) Open a command window as follows:
+1. Open a command window as follows:
   a. Click on the start button and type “cmd”.
   b. Right click on the Command Prompt App and select “Run as administrator”. 
      You may need to specify a privileged account and password to successfully open a 
      command prompt with admin rights.
-2.) Type “where python” at the command prompt.  Confirm that the specific version of 
+2. Type “where python” at the command prompt.  Confirm that the specific version of 
     Python is located at: C:\Users\<username>\AppData\Local\Programs\Python\Python311
-3.) Type “where pip” at the command prompt. Confirm that the specific version of Python 
+3. Type “where pip” at the command prompt. Confirm that the specific version of Python 
     is located at: C:\Users\<username>\AppData\Local\Programs\Python\Python311\Scripts\
-4.) Keep this privileged command prompt open for Python library installation steps below.
+4. Keep this privileged command prompt open for Python library installation steps below.
 
 ### Install supporting Python Extensions:
 The following Python extensions are needed to maintain the sigcalc program:
@@ -63,10 +63,10 @@ The following Python extensions are needed to maintain the sigcalc program:
 4. pyinstaller – Creates a stand-alone executable for distribution.
 
 ### Perform these installations as follows:
-1.) Type “pip install tk” and wait for the installation to complete.
-2.) Type “pip install requests” and wait for the installation to complete.
-3.) Type "pip install --upgrade coingecko"
-4.) Type “pip install pyinstaller” and wait for the installation to complete.
+1. Type “pip install tk” and wait for the installation to complete.
+2. Type “pip install requests” and wait for the installation to complete.
+3. Type "pip install --upgrade coingecko"
+4. Type “pip install pyinstaller” and wait for the installation to complete.
 
 ### Optionally Install Development Environment
 The sigcalc program consists of a single source code file, sigcalc.py. This file may 
@@ -83,14 +83,14 @@ Refer to the applicable websites for installation and usage instructions for the
 To create a single .exe file that can be distributed and run without the need to install 
 a specific Python version or specific Python libraries, pyinstaller is used. Follow the 
 steps below to generate an exe file from the sigcalc.py script:
-1.) Open a command window as follows:
+1. Open a command window as follows:
   a. Click on the start button and type “cmd”.
   b. Right click on the Command Prompt App and select “Run as administrator”. You may 
   need to specify a privileged account and password to successfully open a command 
   prompt with admin rights.
-2.) Change the directory to the location of the sigcalc.py file using the “cd” command.
-3.) Type: “pyinstaller -F sigcalc.py” and wait for the processing to complete.
-4.) The new executable will be placed in the “dist” subdirectory below the current 
+2. Change the directory to the location of the sigcalc.py file using the “cd” command.
+3. Type: “pyinstaller -F sigcalc.py” and wait for the processing to complete.
+4. The new executable will be placed in the “dist” subdirectory below the current 
     directory. E.g., “./dist/sigcalc.exe”.
 Note that this executable file is very large (>11MB) and may be too large to send via email.
 
