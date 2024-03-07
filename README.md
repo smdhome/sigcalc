@@ -43,8 +43,8 @@ Where <username> is the users login name on the system.
 
 ### Check the Environment
 1. Open a command window as follows:
-a. Click on the start button and type “cmd”.
-b. Right click on the Command Prompt App and select “Run as administrator”. 
+- Click on the start button and type “cmd”.
+- Right click on the Command Prompt App and select “Run as administrator”. 
 You may need to specify a privileged account and password to successfully open a command prompt with admin rights.
 2. Type “where python” at the command prompt.  Confirm that the specific version of Python is located at:
 C:\Users\<username>\AppData\Local\Programs\Python\Python311
@@ -81,8 +81,8 @@ To create a single .exe file that can be distributed and run without the need to
 a specific Python version or specific Python libraries, pyinstaller is used. Follow the 
 steps below to generate an exe file from the sigcalc.py script:
 1. Open a command window as follows:
-a. Click on the start button and type “cmd”.
-b. Right click on the Command Prompt App and select “Run as administrator”. You may need to specify a privileged account and password to successfully open a command prompt with admin rights.
+- Click on the start button and type “cmd”.
+- Right click on the Command Prompt App and select “Run as administrator”. You may need to specify a privileged account and password to successfully open a command prompt with admin rights.
 2. Change the directory to the location of the sigcalc.py file using the “cd” command.
 3. Type: “pyinstaller -F sigcalc.py” and wait for the processing to complete.
 4. The new executable will be placed in the “dist” subdirectory below the current directory. E.g., “./dist/sigcalc.exe”.
@@ -152,5 +152,5 @@ supports the following currencies:
   "xdr",
   "xag",
   "xau",
-  "bits",
-  "sats"
+  "bits", and
+  "sats".
