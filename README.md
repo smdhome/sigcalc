@@ -81,21 +81,17 @@ To create a single .exe file that can be distributed and run without the need to
 a specific Python version or specific Python libraries, pyinstaller is used. Follow the 
 steps below to generate an exe file from the sigcalc.py script:
 1. Open a command window as follows:
-  a. Click on the start button and type “cmd”.
-  b. Right click on the Command Prompt App and select “Run as administrator”. You may 
-  need to specify a privileged account and password to successfully open a command 
-  prompt with admin rights.
+a. Click on the start button and type “cmd”.
+b. Right click on the Command Prompt App and select “Run as administrator”. You may need to specify a privileged account and password to successfully open a command prompt with admin rights.
 2. Change the directory to the location of the sigcalc.py file using the “cd” command.
 3. Type: “pyinstaller -F sigcalc.py” and wait for the processing to complete.
-4. The new executable will be placed in the “dist” subdirectory below the current 
-    directory. E.g., “./dist/sigcalc.exe”.
+4. The new executable will be placed in the “dist” subdirectory below the current directory. E.g., “./dist/sigcalc.exe”.
 Note that this executable file is very large (>11MB) and may be too large to send via email.
 
 ## 4. CHANGING THE BASE CURRENCY (OPTIONAL):
 It should be possible to replace US Dollars with any supported currency.  Take note of 
 all the instances of "USD" or "usd" in strings and when used in variable names.  Coingecko
 supports the following currencies:
-[
   "btc",
   "eth",
   "ltc",
@@ -158,4 +154,3 @@ supports the following currencies:
   "xau",
   "bits",
   "sats"
-]
