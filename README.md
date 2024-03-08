@@ -2,7 +2,10 @@
 # Signum Price Calculator
 
 ## 1. PURPOSE OF THE SIGCALC PROGRAM:
-The sigcalc program will graphically display the current prices for Signa, Bitcoin (BTC), Litecoin (LTC), and Etherium (ETH) in terms of US Dollars ($).  It will also display the price of Signa in terms of BTC, LTC, and ETH.  The current price data is queried from the Coingecko database.  
+The sigcalc program will graphically display the current prices for Signa, Bitcoin (BTC), Litecoin (LTC), and Etherium (ETH) in terms of US Dollars ($).  It will also display the price of Signa in terms of BTC, LTC, and ETH.  The current price data is queried from the Coingecko database.  See screen shot below.
+
+![](https://github.com/smdhome/sigcalc/blob/main/Capture.JPG)
+
 
 Note that, Coingecko limits the query frequency and may not respond if called too
 rapidly.  In general this does not present a problem.  
